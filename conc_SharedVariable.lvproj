@@ -18,28 +18,34 @@
 			<Item Name="Test Bool.vi" Type="VI" URL="../Test/Test Bool.vi"/>
 			<Item Name="Test Shared Variables.lvlib" Type="Library" URL="../Test/Test Shared Variables.lvlib"/>
 			<Item Name="Test Reading and Writing JSON Config.vi" Type="VI" URL="../Test/Test Reading and Writing JSON Config.vi"/>
+			<Item Name="Test Reading and Writing Binary Config.vi" Type="VI" URL="../Test/Test Reading and Writing Binary Config.vi"/>
 		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="abs_SharedVariable.lvclass" Type="LVClass" URL="../Source/Interface/abs_SharedVariable.lvclass"/>
 				<Item Name="Shared Variable Type Check.vi" Type="VI" URL="../Source/Support/Shared Variable Type Check.vi"/>
 			</Item>
+			<Item Name="conc_SharedVar_Var.lvclass" Type="LVClass" URL="../Source/Var/conc_SharedVar_Var.lvclass"/>
+			<Item Name="conc_SharedVar_Time.lvclass" Type="LVClass" URL="../Source/Time/conc_SharedVar_Time.lvclass"/>
 			<Item Name="conc_SharedVar_Bool.lvclass" Type="LVClass" URL="../Source/Bool/conc_SharedVar_Bool.lvclass"/>
+			<Item Name="conc_SharedVar_WFM.lvclass" Type="LVClass" URL="../Source/WFM/conc_SharedVar_WFM.lvclass"/>
 			<Item Name="conc_SharedVar_STR.lvclass" Type="LVClass" URL="../Source/STR/conc_SharedVar_STR.lvclass"/>
 			<Item Name="conc_SharedVar_SGL.lvclass" Type="LVClass" URL="../Source/SGL/conc_SharedVar_SGL.lvclass"/>
 			<Item Name="conc_SharedVar_DBL.lvclass" Type="LVClass" URL="../Source/DBL/conc_SharedVar_DBL.lvclass"/>
 			<Item Name="conc_SharedVar_I8.lvclass" Type="LVClass" URL="../Source/I8/conc_SharedVar_I8.lvclass"/>
+			<Item Name="conc_SharedVar_I16.lvclass" Type="LVClass" URL="../Source/I16/conc_SharedVar_I16.lvclass"/>
+			<Item Name="conc_SharedVar_I32.lvclass" Type="LVClass" URL="../Source/I32/conc_SharedVar_I32.lvclass"/>
+			<Item Name="conc_SharedVar_I64.lvclass" Type="LVClass" URL="../Source/I64/conc_SharedVar_I64.lvclass"/>
+			<Item Name="conc_SharedVar_U8.lvclass" Type="LVClass" URL="../Source/U8/conc_SharedVar_U8.lvclass"/>
+			<Item Name="conc_SharedVar_U16.lvclass" Type="LVClass" URL="../Source/U16/conc_SharedVar_U16.lvclass"/>
+			<Item Name="conc_SharedVar_U32.lvclass" Type="LVClass" URL="../Source/U32/conc_SharedVar_U32.lvclass"/>
+			<Item Name="conc_SharedVar_U64.lvclass" Type="LVClass" URL="../Source/U64/conc_SharedVar_U64.lvclass"/>
 		</Item>
-		<Item Name="Untitled 1.vi" Type="VI" URL="../Untitled 1.vi"/>
-		<Item Name="Test Reading and Writing Binary Config.vi" Type="VI" URL="../Test/Test Reading and Writing Binary Config.vi"/>
+		<Item Name="Initialise_Conc_SharedVariable.vi" Type="VI" URL="../Source/Initialise_Conc_SharedVariable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
-				<Item Name="Abs_Complex Double Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Double Float/Abs_Complex Double Float.lvclass"/>
-				<Item Name="Abs_Complex Extended Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Extended Float/Abs_Complex Extended Float.lvclass"/>
-				<Item Name="Abs_Complex Single Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Single Float/Abs_Complex Single Float.lvclass"/>
 				<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
-				<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
 				<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
 				<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
 				<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
@@ -47,8 +53,6 @@
 				<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
 				<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Integer/Abs_Integer.lvclass"/>
 				<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
-				<Item Name="Abs_Read.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Read.vi"/>
-				<Item Name="Abs_Simple_Read.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Simple_Read.vi"/>
 				<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
 				<Item Name="Abs_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/String/Abs_String.lvclass"/>
 				<Item Name="Abs_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Time/Abs_Time.lvclass"/>
@@ -60,8 +64,6 @@
 				<Item Name="Abs_Value.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Value/Abs_Value.lvclass"/>
 				<Item Name="Abs_Variant.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Variant/Abs_Variant.lvclass"/>
 				<Item Name="Abs_Waveform.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Waveform/Abs_Waveform.lvclass"/>
-				<Item Name="Abs_Write.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Write.vi"/>
-				<Item Name="Abstract LV Class - Hierarchy.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abstract LV Class - Hierarchy.vi"/>
 				<Item Name="Base64 Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Base64/Base64 Support.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
