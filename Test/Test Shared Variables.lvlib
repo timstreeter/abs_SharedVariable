@@ -22,6 +22,46 @@
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#%!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
+	<Item Name="I8" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#%!A!!!!!!"!!N!!1!%37ZU/!!!!1!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="I16" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!B(1!!!#%!A!!!!!!"!!N!!A!&amp;37ZU-49!!1!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="I32" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!#%!A!!!!!!"!!N!!Q!&amp;37ZU-T)!!1!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="I64" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!H)Q!!!#%!A!!!!!!"!!N!"!!&amp;37ZU.D1!!1!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="SGL" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!#%!A!!!!!!"!!V!#1!'5WFO:WRF!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
 	<Item Name="STR" Type="Variable">
 		<Property Name="featurePacks" Type="Str">Network</Property>
 		<Property Name="Network:UseBinding" Type="Str">False</Property>
@@ -29,5 +69,61 @@
 		<Property Name="numTypedefs" Type="UInt">0</Property>
 		<Property Name="type" Type="Str">Network</Property>
 		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!I*!!!!#%!A!!!!!!"!""!-0````]'5X2S;7ZH!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Time" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!U-!!!!#%!A!!!!!!"!""!6!!'#62J&lt;76T&gt;'&amp;N=!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="U8" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!A(!!!!#%!A!!!!!!"!!N!"1!&amp;65FO&gt;$A!!1!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="U16" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!D(Q!!!#%!A!!!!!!"!!V!"A!'65FO&gt;$%W!!!"!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="U32" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!F)1!!!#%!A!!!!!!"!!V!"Q!'65FO&gt;$-S!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="U64" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#%!A!!!!!!"!!V!#!!'65FO&gt;$9U!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="Variant" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!U-!!!!#%!A!!!!!!"!!R!5Q&gt;798*J97ZU!!%!!#%!A!!!!!!"!!1!!!!"!!!!!!!!!!!!!!!!!!!</Property>
+	</Item>
+	<Item Name="WFM" Type="Variable">
+		<Property Name="featurePacks" Type="Str">Network</Property>
+		<Property Name="Network:UseBinding" Type="Str">False</Property>
+		<Property Name="Network:UseBuffering" Type="Str">False</Property>
+		<Property Name="numTypedefs" Type="UInt">0</Property>
+		<Property Name="type" Type="Str">Network</Property>
+		<Property Name="typeDesc" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"D8Q!!!#%!A!!!!!!"!":!6!!$$U2P&gt;7*M:3"898:F:G^S&lt;1!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)1#!!!!!!!%!"!!!!!%!!!!!!!!!!!!!!!!!!!</Property>
 	</Item>
 </Library>
