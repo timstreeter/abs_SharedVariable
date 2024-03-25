@@ -26,23 +26,6 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Unit Tests" Type="Folder">
-			<Item Name="Support" Type="Folder">
-				<Item Name="Variant shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Variant shared Variable Test.vi"/>
-				<Item Name="WFM shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/WFM shared Variable Test.vi"/>
-				<Item Name="Time shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Time shared Variable Test.vi"/>
-				<Item Name="String shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/String shared Variable Test.vi"/>
-				<Item Name="Bool shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Bool shared Variable Test.vi"/>
-				<Item Name="Numeric shared Variable Test.vim" Type="VI" URL="../Unit Tests/Support/Numeric shared Variable Test.vim"/>
-			</Item>
-			<Item Name="Shared Variable Units Tests.vi" Type="VI" URL="../Unit Tests/Shared Variable Units Tests.vi"/>
-		</Item>
-		<Item Name="Test" Type="Folder">
-			<Item Name="Test Bool.vi" Type="VI" URL="../Test/Test Bool.vi"/>
-			<Item Name="Test Shared Variables.lvlib" Type="Library" URL="../Test/Test Shared Variables.lvlib"/>
-			<Item Name="Test Reading and Writing JSON Config.vi" Type="VI" URL="../Test/Test Reading and Writing JSON Config.vi"/>
-			<Item Name="Test Reading and Writing Binary Config.vi" Type="VI" URL="../Test/Test Reading and Writing Binary Config.vi"/>
-		</Item>
 		<Item Name="Source" Type="Folder">
 			<Item Name="Support" Type="Folder">
 				<Item Name="abs_SharedVariable.lvclass" Type="LVClass" URL="../Source/Interface/abs_SharedVariable.lvclass"/>
@@ -63,6 +46,23 @@
 			<Item Name="conc_SharedVar_U16.lvclass" Type="LVClass" URL="../Source/U16/conc_SharedVar_U16.lvclass"/>
 			<Item Name="conc_SharedVar_U32.lvclass" Type="LVClass" URL="../Source/U32/conc_SharedVar_U32.lvclass"/>
 			<Item Name="conc_SharedVar_U64.lvclass" Type="LVClass" URL="../Source/U64/conc_SharedVar_U64.lvclass"/>
+		</Item>
+		<Item Name="Test" Type="Folder">
+			<Item Name="Test Bool.vi" Type="VI" URL="../Test/Test Bool.vi"/>
+			<Item Name="Test Shared Variables.lvlib" Type="Library" URL="../Test/Test Shared Variables.lvlib"/>
+			<Item Name="Test Reading and Writing JSON Config.vi" Type="VI" URL="../Test/Test Reading and Writing JSON Config.vi"/>
+			<Item Name="Test Reading and Writing Binary Config.vi" Type="VI" URL="../Test/Test Reading and Writing Binary Config.vi"/>
+		</Item>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Variant shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Variant shared Variable Test.vi"/>
+				<Item Name="WFM shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/WFM shared Variable Test.vi"/>
+				<Item Name="Time shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Time shared Variable Test.vi"/>
+				<Item Name="String shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/String shared Variable Test.vi"/>
+				<Item Name="Bool shared Variable Test.vi" Type="VI" URL="../Unit Tests/Support/Bool shared Variable Test.vi"/>
+				<Item Name="Numeric shared Variable Test.vim" Type="VI" URL="../Unit Tests/Support/Numeric shared Variable Test.vim"/>
+			</Item>
+			<Item Name="Shared Variable Units Tests.vi" Type="VI" URL="../Unit Tests/Shared Variable Units Tests.vi"/>
 		</Item>
 		<Item Name="Initialise_Conc_SharedVariable.vi" Type="VI" URL="../Source/Initialise_Conc_SharedVariable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
