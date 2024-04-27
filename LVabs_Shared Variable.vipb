@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-24 17:36:30" Modified_Date="2024-03-24 22:29:26" Creator="Tim" Comments="" ID="cc44beec1d96b2fdddc6df07f6677880">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-03-24 17:36:30" Modified_Date="2024-04-28 10:16:19" Creator="Tim" Comments="" ID="18681813530072f6ac3da4d12f013a18">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_LVabs_Shared_Variable</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -19,10 +19,10 @@
     <Package_Dependencies>
       <External_Dependencies>jdp_science_jsontext &gt;= 1.7.0.118</External_Dependencies>
       <External_Dependencies>jdp_science_lib_common_utilities &gt;= 1.4.1.18</External_Dependencies>
-      <External_Dependencies>tsa_lib_abstract_data_classes &gt;= 1.0.0.5</External_Dependencies>
+      <External_Dependencies>tsa_lib_abstract_data_classes &gt;= 2.1.0.11</External_Dependencies>
       <Direct_Dependencies>jdp_science_jsontext-1.7.0.118</Direct_Dependencies>
       <Direct_Dependencies>jdp_science_lib_common_utilities-1.4.1.18</Direct_Dependencies>
-      <Direct_Dependencies>tsa_lib_abstract_data_classes-1.0.0.5</Direct_Dependencies>
+      <Direct_Dependencies>tsa_lib_abstract_data_classes-2.1.0.11</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -38,7 +38,7 @@
       <Description>This is a Concrete set of classes that extend the LV_Abstract library to shared variable IO.</Description>
       <Copyright/>
       <Packager/>
-      <URL/>
+      <URL>https://github.com/timstreeter/conc_SharedVariable</URL>
       <Release_Notes/>
     </Description>
     <Destinations>
@@ -180,7 +180,7 @@
       <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
-      <Edit_VI_Description>false</Edit_VI_Description>
+      <Edit_VI_Description>true</Edit_VI_Description>
       <Text_to_Add>{product_name} {version_number}
 {author_name} - {company_name}
 {copyright}</Text_to_Add>
@@ -221,7 +221,7 @@
         <Path>Source\Initialise_Conc_SharedVariable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B9CC924C3AB4814130BC5EAFBBD4FD3B</GUID>
+      <GUID>C4E04CEA1ECBC8F5E40626C469CC5499</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

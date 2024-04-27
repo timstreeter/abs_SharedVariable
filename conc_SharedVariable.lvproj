@@ -46,6 +46,7 @@
 			<Item Name="conc_SharedVar_U16.lvclass" Type="LVClass" URL="../Source/U16/conc_SharedVar_U16.lvclass"/>
 			<Item Name="conc_SharedVar_U32.lvclass" Type="LVClass" URL="../Source/U32/conc_SharedVar_U32.lvclass"/>
 			<Item Name="conc_SharedVar_U64.lvclass" Type="LVClass" URL="../Source/U64/conc_SharedVar_U64.lvclass"/>
+			<Item Name="Initialise_Conc_SharedVariable.vi" Type="VI" URL="../Source/Initialise_Conc_SharedVariable.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Test Bool.vi" Type="VI" URL="../Test/Test Bool.vi"/>
@@ -64,7 +65,6 @@
 			</Item>
 			<Item Name="Shared Variable Units Tests.vi" Type="VI" URL="../Unit Tests/Shared Variable Units Tests.vi"/>
 		</Item>
-		<Item Name="Initialise_Conc_SharedVariable.vi" Type="VI" URL="../Source/Initialise_Conc_SharedVariable.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
